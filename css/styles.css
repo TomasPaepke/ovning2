@@ -8,9 +8,27 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 33;
-    
-    
-    
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;   
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+    text-shadow: 3px 2px 2px black;
+}
+.centeredtwo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 2px black;
 }
 
 button  {
@@ -32,44 +50,25 @@ button:hover {
     background-color:rgba(179, 154, 108, 0.404);
     cursor: grab;
 }
-main  {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(133, 46, 46);
-    
+main section article h1, h2, h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
 }
-main section nav {
+main section article p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+nav section {
     background-color: blanchedalmond;
     text-align: center;
 }
+
+
 footer {
     background-color: rgb(240, 202, 153);
     padding: 3rem;
     text-align: center;
 }
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-      
-}
-.centered {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 5rem;
-    text-shadow: 3px 2px 2px black;
-    
-}
-.centeredtwo {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px 2px black;
-    
-    
-}
+
 
 
