@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    
+}
+header {
+    background: url('img/p0gl91h1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 33;
+    
+    
+    
+}
+
+button  {
+    background-color: rgba(245, 245, 220, 0.555);
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    border-color: rgb(3, 3, 3);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-style: groove;
+    
+}
+button:hover {
+    background-color:rgba(179, 154, 108, 0.404);
+    cursor: grab;
+}
+main  {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(133, 46, 46);
+    
+}
+main section nav {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+footer {
+    background-color: rgb(240, 202, 153);
+    padding: 3rem;
+    text-align: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+      
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+    text-shadow: 3px 2px 2px black;
+    
+}
+.centeredtwo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 2px black;
+    
+    
+}
+
+
